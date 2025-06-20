@@ -1,23 +1,23 @@
-cabal-version: 2.2
-name:          text-convert
-version:       0.1.0.0
-category:      Data
-synopsis:      Convert between various textual representation.
+cabal-version:      2.2
+name:               text-convert
+version:            0.1.0.0
+category:           Data
+synopsis:           Convert between various textual representation.
 description:
   Convert between various types representing textual data.
   This library differs from the similar 'string-conversions' library
   in that this library exports class methods that are monomorphic in
-  their return type.
-  This enhances readability and aids type inference.
+  their return type. This enhances readability and aids type inference.
 
-homepage:      https://github.com/friedbrice/text-convert#readme
-bug-reports:   https://github.com/friedbrice/text-convert/issues
-author:        Daniel Brice
-maintainer:    danielbrice@gmail.com
-copyright:     2025 Daniel Brice
-license:       BSD-3-Clause
-license-file:  LICENSE
-build-type:    Simple
+homepage:           https://github.com/friedbrice/text-convert#readme
+bug-reports:        https://github.com/friedbrice/text-convert/issues
+author:             Daniel Brice
+maintainer:         danielbrice@gmail.com
+copyright:          2025 Daniel Brice
+license:            BSD-3-Clause
+license-file:       LICENSE
+extra-source-files: README.md
+build-type:         Simple
 tested-with:
   GHC ==9.2.8
    || ==9.4.8
