@@ -1,4 +1,4 @@
-{- | Convert between various textual representation.
+{- | Convert between various textual representations.
 
 This module exports seven one-method type classes. The methods are
 designed to be input-type polymorphic and output-type monomorphic, to aid with

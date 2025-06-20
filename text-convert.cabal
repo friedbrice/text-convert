@@ -1,11 +1,11 @@
 cabal-version:      2.2
 name:               text-convert
-version:            0.1.0.0
+version:            0.1.0.1
 category:           Data
-synopsis:           Convert between various textual representation.
+synopsis:           Convert between various textual representations.
 description:
   Convert between various types representing textual data. This library differs
-  from the similar 'string-conversions' library in that this library exports
+  from the similar string-conversions library in that this library exports
   class methods that are monomorphic in their return type. This enhances
   readability and aids type inference.
 
